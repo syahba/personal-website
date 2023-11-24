@@ -76,6 +76,14 @@ html {
     margin-top: -3rem;
 }
 
+.hero-title {
+    margin-bottom: -0.1em;
+}
+
+.hero-desc {
+    margin-bottom: -1em;
+}
+
 /* hero homepage */
 .highlight {
     font-weight: 700;
@@ -215,6 +223,10 @@ html {
     background-color: rgb(255, 192, 75);
 }
 
+.black {
+    background-color: var(--neutral);
+}
+
 /* about profile */
 .profile-container {
     display: flex;
@@ -232,6 +244,7 @@ html {
 
 .profile-content {
     color: var(--neutral);
+    font-size: 1em;
     line-height: 2em;
     letter-spacing: 0.03em;
 }
@@ -288,6 +301,19 @@ html {
 .tech-name {
     color: var(--neutral);
     font-weight: 700;
+}
+
+/* article */
+.date {
+    font-size: 0.8em;
+    color: var(--secondary);
+}
+
+.article-content {
+    color: var(--neutral);
+    font-size: 1.1em;
+    line-height: 2.2em;
+    letter-spacing: 0.03em;
 }
 
 /* footer */
