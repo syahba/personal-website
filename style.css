@@ -316,6 +316,10 @@ html {
     letter-spacing: 0.03em;
 }
 
+.article-img {
+    max-width: 100%;
+}
+
 /* footer */
 .footer-info {
     display: flex;
