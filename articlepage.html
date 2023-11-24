@@ -3,28 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title id="blog-title"></title>
 </head>
 
 <body>
     <header>
-        <nav class="nav-bar">
-            <ul>
-                <li><a href="homepage.html">Home</a></li>
-                <li><a href="aboutpage.html">About</a></li>
-                <li><a href="portfoliopage.html">Portfolio</a></li>
-                <li><a href="blogpage.html">Blog</a></li>
+        <nav>
+            <ul class="nav-bar">
+                <li><a class="nav-list" href="homepage.html">Home</a></li>
+                <li><a class="nav-list" href="aboutpage.html">About</a></li>
+                <li><a class="nav-list" href="portfoliopage.html">Portfolio</a></li>
+                <li><a class="nav-list" href="blogpage.html">Blog</a></li>
+                <li><a class="nav-list" href="homepage.html#featured-section">Featured</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <div class="section" id="hero-section">
-            <h1 class="header">Hi, my name is <span class="name">Syahba.</span></h1>
-            <h3 class="sub-header">
-                I'm an aspiring fullstack developer with a big interest in artificial intelligence ^v^
-            </h3>
-            <a class="cta" href="aboutpage.html">Get to know</a>
+        <div class="section hero-title" id="blog-title-section">
+            <p class="date" id="date"></p>
+            <h1 class="header" id="article-title"></h1>
+        </div>
+
+        <div class="section" id="blog-content-section">
+            <article class="article" id="first-content">
+                <p class="article-content"></p>
+            </article>
+            <article class="article" id="second-content">
+                <h3 class="heading"></h3>
+                <p class="article-content"></p>
+            </article>
+            <article class="article" id="third-content">
+                <h3 class="heading"></h3>
+                <p class="article-content"></p>
+            </article>
         </div>
     </main>
 
@@ -34,16 +47,16 @@
                 <h3 class="footer-header">Let's connect</h3>
                 <p class="footer-subheader">Do you have feedback or suggestions? Feel free to contact me!</p>
                 <div class="footer-socials">
-                    <a href="mailto:khalisasyahba@gmail.com" target="_blank">
+                    <a class="socials" href="mailto:khalisasyahba@gmail.com" target="_blank">
                         <img class="img-socials gmail" src="./sources/email.png" alt="gmail-icon">
                     </a>
-                    <a href="https://github.com/syahba" target="_blank">
+                    <a class="socials" href="https://github.com/syahba" target="_blank">
                         <img class="img-socials github" src="./sources/github.png" alt="github-icon">
                     </a>
-                    <a href="https://www.instagram.com/ksyahba" target="_blank">
+                    <a class="socials" href="https://www.instagram.com/ksyahba" target="_blank">
                         <img class="img-socials instagram" src="./sources/instagram.png" alt="instagram-icon">
                     </a>
-                    <a href="https://www.linkedin.com/in/syahba/" target="_blank">
+                    <a class="socials" href="https://www.linkedin.com/in/syahba/" target="_blank">
                         <img class="img-socials linkedin" src="./sources/linkedin.png" alt="linkedin-icon">
                     </a>
                 </div>
@@ -51,6 +64,8 @@
             <small>© 2023 Khalisa Syahba.</small>
         </div>
     </footer>
+
+    <script src="index.js"></script>
 </body>
 
 </html>

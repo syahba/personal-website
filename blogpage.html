@@ -7,52 +7,60 @@
 </head>
 <body>
     <header>
-        <nav class="nav-bar">
-            <ul>
-                <li><a href="homepage.html">Home</a></li>
-                <li><a href="aboutpage.html">About</a></li>
-                <li><a href="portfoliopage.html">Portfolio</a></li>
-                <li><a href="blogpage.html">Blog</a></li>
+        <nav>
+            <ul class="nav-bar">
+                <li><a class="nav-list" href="homepage.html">Home</a></li>
+                <li><a class="nav-list" href="aboutpage.html">About</a></li>
+                <li><a class="nav-list" href="portfoliopage.html">Portfolio</a></li>
+                <li><a class="nav-list" href="blogpage.html">Blog</a></li>
+                <li><a class="nav-list" href="homepage.html#featured-section">Featured</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <div class="section" id="blog-title-section">
+        <div class="section hero-title" id="blog-title-section">
             <h1 class="header">Blog</h1>
-            <h3 class="sub-header">Showcase of my works from programming, designing, to illustration.</h3>
+            <h3 class="sub-header">Compilation of things I find interesting and my journey.</h3>
         </div>
 
         <div class="section" id="blog-list-section">
-            <h2 class="heading">Blogs</h2>
             <div class="card-container">
-                <div class="card-item">
+                <div class="card-item blog">
                     <h3 class="card-title">Blog Title</h3>
                     <div class="card-tags">
                         <div class="tag">
-                            <div class="colored-dot" id="pink-dot"></div>
+                            <div class="colored-dot pink"></div>
                             <p class="tag-name">UI Design</p>
                         </div>
                     </div>
-                    <a class="card-link" href=""></a>
+                    <p class="card-detail">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </p>
+                    <a class="card-link" id="blog-one" href="articlepage.html"></a>
                 </div>
-                <div class="card-item">
+                <div class="card-item blog">
                     <h3 class="card-title">Blog Title</h3>
                     <div class="card-tags">
                         <div class="tag">
-                            <div class="colored-dot" id="red-dot"></div>
+                            <div class="colored-dot red"></div>
                             <p class="tag-name">HTML</p>
                         </div>
                         <div class="tag">
-                            <div class="colored-dot" id="green-dot"></div>
+                            <div class="colored-dot green"></div>
                             <p class="tag-name">CSS</p>
                         </div>
                         <div class="tag">
-                            <div class="colored-dot" id="yellow-dot"></div>
+                            <div class="colored-dot yellow"></div>
                             <p class="tag-name">Javascript</p>
                         </div>
                     </div>
-                    <a class="card-link" href=""></a>
+                    <p class="card-detail">
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.
+                    </p>
+                    <a class="card-link" id="blog-two" href="articlepage.html"></a>
                 </div>
             </div>
         </div>
@@ -64,16 +72,16 @@
                 <h3 class="footer-header">Let's connect</h3>
                 <p class="footer-subheader">Do you have feedback or suggestions? Feel free to contact me!</p>
                 <div class="footer-socials">
-                    <a href="mailto:khalisasyahba@gmail.com" target="_blank">
+                    <a class="socials" href="mailto:khalisasyahba@gmail.com" target="_blank">
                         <img class="img-socials gmail" src="./sources/email.png" alt="gmail-icon">
                     </a>
-                    <a href="https://github.com/syahba" target="_blank">
+                    <a class="socials" href="https://github.com/syahba" target="_blank">
                         <img class="img-socials github" src="./sources/github.png" alt="github-icon">
                     </a>
-                    <a href="https://www.instagram.com/ksyahba" target="_blank">
+                    <a class="socials" href="https://www.instagram.com/ksyahba" target="_blank">
                         <img class="img-socials instagram" src="./sources/instagram.png" alt="instagram-icon">
                     </a>
-                    <a href="https://www.linkedin.com/in/syahba/" target="_blank">
+                    <a class="socials" href="https://www.linkedin.com/in/syahba/" target="_blank">
                         <img class="img-socials linkedin" src="./sources/linkedin.png" alt="linkedin-icon">
                     </a>
                 </div>

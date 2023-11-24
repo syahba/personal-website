@@ -9,12 +9,13 @@
 
 <body>
     <header>
-        <nav class="nav-bar">
-            <ul>
-                <li><a href="homepage.html">Home</a></li>
-                <li><a href="aboutpage.html">About</a></li>
-                <li><a href="portfoliopage.html">Portfolio</a></li>
-                <li><a href="blogpage.html">Blog</a></li>
+        <nav>
+            <ul class="nav-bar">
+                <li><a class="nav-list" href="homepage.html">Home</a></li>
+                <li><a class="nav-list" href="aboutpage.html">About</a></li>
+                <li><a class="nav-list" href="portfoliopage.html">Portfolio</a></li>
+                <li><a class="nav-list" href="blogpage.html">Blog</a></li>
+                <li><a class="nav-list" href="homepage.html#featured-section">Featured</a></li>
             </ul>
         </nav>
     </header>
@@ -22,24 +23,30 @@
     <main>
         <div class="section" id="intro-section">
             <div class="intro-content">
-                <h2 class="header">About</h2>
-                <h1 class="name">Khalisa Syahba</h1>
-                <p class="article-content">
-                    Hi, I'm Syahba, and I've got a real passion for exploring. I once pursued art
-                    in hope to share things
-                    I'm most proud of. Over the span of three years, I did two art exhibitions in Jakarta, hosted
-                    workshops to share my experiences, shared loads of digital illustrations on social media, and had a
-                    go at different digital art forms, such as 3D modeling, animations, and video editing.
-                    <br>
-                    Although I still dabble in digital art every now and then, I've recently shifted my focus towards
-                    the latest tech trends. I've been tinkering with tech since 2018, tackling things like data science,
-                    web development, app creation, and even some robotics. I even spent three years working as a
-                    behind-the-scenes developer. But now, I'm all in on delving deep into the world of AI, which is the
-                    hottest thing in tech right now.
-                </p>
-            </div>
-            <div class="profile">
-                <img class="picture" src="" alt="khalisa-syahba">
+                <div class="">
+                    <h2 class="header">About</h2>
+                    <h1 class="name" id="about-name">Khalisa Syahba</h1>
+                </div>
+                <div class="content profile-container">
+                    <article class="profile-content profile-item">
+                        <p class="profile-about">
+                            Hi, I'm Syahba, and I've got a real passion for exploring. I once pursued art
+                            in hope to share things
+                            I'm most proud of. Over the span of three years, I did two art exhibitions in Jakarta, hosted
+                            workshops to share my experiences, shared loads of digital illustrations on social media, and had a
+                            go at different digital art forms, such as 3D modeling, animations, and video editing.
+                            <br><br>
+                            Although I still dabble in digital art every now and then, I've recently shifted my focus towards
+                            the latest tech trends. I've been tinkering with tech since 2018, tackling things like data science,
+                            web development, app creation, and even some robotics. I even spent three years working as a
+                            behind-the-scenes developer. But now, I'm all in on delving deep into the world of AI, which is the
+                            hottest thing in tech right now.
+                        </p>
+                    </article>
+                    <div class="profile-item">
+                        <img class="img-profile" src="./sources/khalisa-syahba.jpg" alt="khalisa-syahba">
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -47,32 +54,18 @@
             <h3 class="heading">Technology</h3>
             <div class="tech-container">
                 <div class="tech-item">
-                    <div class="icon"><img class="img-tech nodejs" src="" alt="node-js"></div>
-                    <p class="card-title">NodeJS</p>
-                    <p class="card-detail">
-                        A programming environment to build applications that need to support multiple concurrent
-                        requests.
-                    </p>
+                    <img class="img-tech nodejs" src="./sources/nodejs.png" alt="node-js">
+                    <span class="tooltip"><span class="tech-name">NodeJS</span> is a programming environment used for apps that support multiple requests.</span>
                 </div>
                 <div class="tech-item">
-                    <div class="icon"><img class="img-tech figma" src="" alt="figma"></div>
-                    <p class="card-title">Figma</p>
-                    <p class="card-detail">
-                        A collaborative web application to create, share, and test interface designs.
-                    </p>
+                    <img class="img-tech figma" src="./sources/figma.png" alt="figma">
+                    <span class="tooltip"><span class="tech-name">Figma</span> is collaborative web application to create, share, and test interface designs.</span>
                 </div>
                 <div class="tech-item">
-                    <div class="icon"><img class="img-tech photoshop" src="" alt="photoshop"></div>
-                    <p class="card-title">Adobe Photohop</p>
-                    <p class="card-detail">
-                        A software used for image creation, graphic design and photo editing.
-                    </p>
+                    <img class="img-tech photoshop" src="./sources/ps.png" alt="photoshop">
+                    <span class="tooltip"><span class="tech-name">Photoshop</span> is a software used for image creation, graphic design and photo editing.</span>
                 </div>
             </div>
-        </div>
-
-        <div class="section" id="resume-section">
-            <button type="button" class="download">DOWNLOAD CV</button>
         </div>
     </main>
 
@@ -82,16 +75,16 @@
                 <h3 class="footer-header">Let's connect</h3>
                 <p class="footer-subheader">Do you have feedback or suggestions? Feel free to contact me!</p>
                 <div class="footer-socials">
-                    <a href="mailto:khalisasyahba@gmail.com" target="_blank">
+                    <a class="socials" href="mailto:khalisasyahba@gmail.com" target="_blank">
                         <img class="img-socials gmail" src="./sources/email.png" alt="gmail-icon">
                     </a>
-                    <a href="https://github.com/syahba" target="_blank">
+                    <a class="socials" href="https://github.com/syahba" target="_blank">
                         <img class="img-socials github" src="./sources/github.png" alt="github-icon">
                     </a>
-                    <a href="https://www.instagram.com/ksyahba" target="_blank">
+                    <a class="socials" href="https://www.instagram.com/ksyahba" target="_blank">
                         <img class="img-socials instagram" src="./sources/instagram.png" alt="instagram-icon">
                     </a>
-                    <a href="https://www.linkedin.com/in/syahba/" target="_blank">
+                    <a class="socials" href="https://www.linkedin.com/in/syahba/" target="_blank">
                         <img class="img-socials linkedin" src="./sources/linkedin.png" alt="linkedin-icon">
                     </a>
                 </div>
